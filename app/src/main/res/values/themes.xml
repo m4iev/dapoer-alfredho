@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.DapoerAlfredho" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/bg</item>
+         <item name="colorPrimaryVariant">@color/bg</item>
+         <item name="android:statusBarColor">@color/nav_active</item>
+    </style>
+
+    <style name="Theme.DapoerAlfredho" parent="Base.Theme.DapoerAlfredho" />
+    
+    <style name="App.Custom.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/nav_active</item>
+    </style>
+</resources>

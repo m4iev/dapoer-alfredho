@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuDetail"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="Judul"
+        android:id="@+id/title_makanan"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:background="@color/bg"
+        android:textStyle="bold"
+        android:paddingTop="5dp"
+        android:paddingLeft="5dp"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:id="@+id/makanan_icon"
+        android:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/deskripsi_makanan"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur metus eros, tincidunt ac libero vitae, faucibus fringilla ipsum. Praesent arcu lectus, sollicitudin et rutrum lobortis, malesuada non ante. Sed eu pharetra est. Curabitur rhoncus sapien eu ipsum congue, ac facilisis libero eleifend. Maecenas mollis tempus blandit. Duis et commodo lacus, et molestie diam. Nulla mauris mauris, laoreet eget mattis eu, tempor ut eros. Ut lorem purus, semper ut consequat a, lobortis eleifend lectus. Integer at justo nec velit interdum blandit ut non tellus. Proin in lorem odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin convallis ipsum in ante volutpat, id elementum erat aliquet. Nam sed elementum libero, in rutrum orci. Proin eleifend tempor augue, commodo accumsan ante. Proin at eleifend nisl."
+        android:layout_margin="15dp" />
+
+</LinearLayout>

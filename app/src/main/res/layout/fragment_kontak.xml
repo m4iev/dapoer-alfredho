@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KontakFragment"
+    android:background="#EF5323"
+    android:layout_marginBottom="80dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dapoer Alfredho"
+            android:textColor="@color/nav_active"
+            android:textAlignment="center"
+            android:fontFamily="@font/poppins"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hubungi Kami :"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:fontFamily="@font/poppins"
+            android:textSize="30sp"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginLeft="65dp">
+
+            <ImageButton
+                android:id="@+id/ig_button"
+                android:layout_width="128px"
+                android:layout_height="128px"
+                android:src="@drawable/ig"
+                android:background="#EF5323"
+                android:layout_marginLeft="10dp"
+                android:scaleType="fitCenter"
+                android:clickable="true"/>
+
+            <TextView
+                android:id="@+id/ig_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\@alfrdhorzky_"
+                android:textColor="@color/white"
+                android:textAlignment="center"
+                android:fontFamily="@font/poppins"
+                android:textSize="20sp"
+                android:layout_marginLeft="10dp"
+                android:clickable="true"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginLeft="65dp">
+
+            <ImageButton
+                android:id="@+id/fb_button"
+                android:layout_width="128px"
+                android:layout_height="128px"
+                android:src="@drawable/fb"
+                android:background="#EF5323"
+                android:layout_marginLeft="10dp"
+                android:scaleType="fitCenter"
+                android:clickable="true"/>
+
+            <TextView
+                android:id="@+id/fb_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="M. Rizky Alfaredho"
+                android:textColor="@color/white"
+                android:textAlignment="center"
+                android:fontFamily="@font/poppins"
+                android:textSize="20sp"
+                android:layout_marginLeft="10dp"
+                android:clickable="true"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginLeft="65dp">
+
+            <ImageButton
+                android:id="@+id/twitter_button"
+                android:layout_width="128px"
+                android:layout_height="128px"
+                android:src="@drawable/twitter"
+                android:background="#EF5323"
+                android:layout_marginLeft="10dp"
+                android:scaleType="fitCenter"
+                android:clickable="true"/>
+
+            <TextView
+                android:id="@+id/twitter_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\@alfredood"
+                android:textColor="@color/white"
+                android:textAlignment="center"
+                android:fontFamily="@font/poppins"
+                android:textSize="20sp"
+                android:layout_marginLeft="10dp"
+                android:clickable="true"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginLeft="65dp">
+
+            <ImageButton
+                android:id="@+id/wa_button"
+                android:layout_width="128px"
+                android:layout_height="128px"
+                android:src="@drawable/wa"
+                android:background="#EF5323"
+                android:layout_marginLeft="10dp"
+                android:scaleType="fitCenter"
+                android:clickable="true"/>
+
+            <TextView
+                android:id="@+id/wa_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0896-2637-9082"
+                android:textColor="@color/white"
+                android:textAlignment="center"
+                android:fontFamily="@font/poppins"
+                android:textSize="20sp"
+                android:layout_marginLeft="10dp"
+                android:clickable="true"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</FrameLayout>
