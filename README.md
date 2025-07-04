@@ -1,7 +1,7 @@
 # Dapoer Alfredho
 Dapoer Alfredo's food menu app made with Android Studio (Kotlin).
 
-##Preview:
+## Preview:
 
 ### Home Screen
 ![Home Screen](./screenshoots/home.jpg) 
